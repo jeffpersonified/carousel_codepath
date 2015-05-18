@@ -13,6 +13,8 @@
 		1F0FA5961B041BD900AEB574 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0FA5951B041BD900AEB574 /* Images.xcassets */; };
 		1F0FA5991B041BD900AEB574 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F0FA5971B041BD900AEB574 /* LaunchScreen.xib */; };
 		1F0FA5A51B041BD900AEB574 /* CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FA5A41B041BD900AEB574 /* CarouselTests.swift */; };
+		1F0FA5AF1B0A670C00AEB574 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FA5AE1B0A670C00AEB574 /* WelcomeViewController.swift */; };
+		1F0FA5B11B0A68C500AEB574 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FA5B01B0A68C500AEB574 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		1F0FA59E1B041BD900AEB574 /* CarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F0FA5A31B041BD900AEB574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F0FA5A41B041BD900AEB574 /* CarouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTests.swift; sourceTree = "<group>"; };
+		1F0FA5AE1B0A670C00AEB574 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		1F0FA5B01B0A68C500AEB574 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				1F0FA58E1B041BD900AEB574 /* AppDelegate.swift */,
 				1F0FA5901B041BD900AEB574 /* ViewController.swift */,
 				1F0FA5921B041BD900AEB574 /* Main.storyboard */,
+				1F0FA5B01B0A68C500AEB574 /* LoginViewController.swift */,
+				1F0FA5AE1B0A670C00AEB574 /* WelcomeViewController.swift */,
 				1F0FA5951B041BD900AEB574 /* Images.xcassets */,
 				1F0FA5971B041BD900AEB574 /* LaunchScreen.xib */,
 				1F0FA58C1B041BD800AEB574 /* Supporting Files */,
@@ -212,6 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F0FA5B11B0A68C500AEB574 /* LoginViewController.swift in Sources */,
+				1F0FA5AF1B0A670C00AEB574 /* WelcomeViewController.swift in Sources */,
 				1F0FA5911B041BD900AEB574 /* ViewController.swift in Sources */,
 				1F0FA58F1B041BD900AEB574 /* AppDelegate.swift in Sources */,
 			);
