@@ -100,7 +100,7 @@ class LoginViewController: UIViewController {
     
     func checkCredentials() {
         if emailTextField.text == "jeff@example.com" && passwordTextField.text == "password" {
-            println("success")
+            performSegueWithIdentifier("TutorialSegue", sender: self)
         } else {
             self.signInButton.enabled = true
             incorrectCredentials()
