@@ -9,30 +9,26 @@
 
 import UIKit
 
-class WalkthroughViewController: UIViewController {
+class WalkthroughViewController: UIViewController, UIScrollViewDelegate {
 
     @IBOutlet weak var walkthroughScrollView: UIScrollView!
+    @IBOutlet weak var tutorialPageControl: UIPageControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         walkthroughScrollView.contentSize = CGSize(width: 1280, height: 568)
+        walkthroughScrollView.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
+    func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        var page : Int = Int(round(walkthroughScrollView.contentOffset.x / 320))
+        
+        tutorialPageControl.currentPage = page
     }
-    */
-
 }

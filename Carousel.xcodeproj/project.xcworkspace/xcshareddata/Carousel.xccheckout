@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>F233E98F-03CB-4E6E-B98D-5CD94B50258A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Carousel</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>741E43CB9FDA7E441DA97F35B10003635ABBA280</key>
 		<string>github.com:jeffpersonified/carousel_codepath.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Carousel.xcodeproj/project.xcworkspace</string>
+	<string>Carousel.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>741E43CB9FDA7E441DA97F35B10003635ABBA280</key>

@@ -163,12 +163,19 @@
                                     </imageView>
                                 </subviews>
                             </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" id="D2u-rs-YU5">
+                                <rect key="frame" x="127" y="510" width="65" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="pageIndicatorTintColor" red="0.67680060178828172" green="0.71257930564973981" blue="0.71927826054664279" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="0.38823529411764707" green="0.75294117647058822" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="568"/>
                     <connections>
+                        <outlet property="tutorialPageControl" destination="D2u-rs-YU5" id="PNP-vQ-Hzm"/>
                         <outlet property="walkthroughScrollView" destination="f2V-Ur-kOo" id="smd-4j-bYl"/>
                     </connections>
                 </viewController>
